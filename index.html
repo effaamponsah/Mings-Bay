@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script type="text/javascript" src="script.js"></script>    
+</head>
+
+<body>
+    <div id="topbg">
+        <ul id="bar">
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="category.html">Categories</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <ul style="float:right;list-style-type:none;">
+            <li><a href="#about">About</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="signup.html">Sign up</a></li>
+
+        </ul>
+    </div>
+
+
+    <div>
+        <ul id="bartwo">
+            <li><p style="margin-top: 50px;"> Order online or call us : (+233 055-7954-540 )</p></li>
+            <li><p style="font-size: 40px;color: orange;margin-left: 100px;margin-right: 100px;"><b>MING's BAY</b></p></li>
+            <li><input id="search" type="text" name="search" placeholder=" Eg.laptops, phones, shoes, cameras, fashion"></li>
+            <button style=" margin-top: 25px; background-color: orange; padding: 20px; color: white; outline: none; border-style: none; margin-left: 20px;" onclick="search()">Go</button> 
+    </div>
+<!--
+    <div class="hom">
+        <ul id="barthree" >
+            <li><a href="">Clothes</a></li>
+            <li><a href="">Books</a></li>
+            <li><a href="">Electronics</a></li>
+            <li><a href="">Cars</a></li>
+        </ul>
+    </div>
+    <p >This is the name of the boy</p>
+-->
+<div>
+    <a href="imageslide" onmouseover="document.slide.src='images/1.jpg'"  onmouseout="document.slide.src='images/2.jpg'"><img src="images/2.jpg" width="100%" name="slide"></a>
+    
+</div>
+
+<div><h1 style="font-size:60px;text-align: center">TOP SELLING OFFERS</h1></div>
+<ul style="list-style-type: none;">
+<li><div class="card">
+        <img src="images/s1.jpg" alt="me" style="width: 50%; height:100%;">
+        <div class="container">
+           <h4><b>Shoes</b></h4>
+            <p>GH₵ 300.00</p>
+            <a href="#" style="color: orange; text-decoration: none;">Add to cart</a>
+
+        </div>
+    </div>
+    </li>
+
+    <li><div class="card">
+        <img src="images/s2.jpg" alt="me" style="width: 50%; height:100%;margin-top: 55px;">
+        <div class="container">
+           <h4><b>Shoes</b></h4>
+            <p>GH₵ 300.00</p>
+            <a href="#" style="color: orange; text-decoration: none;">Add to cart</a>
+
+        </div>
+    </div>
+    </li>
+<li><div class="card">
+        <img src="images/s3.jpg" alt="me" style="width: 50%; height:100%;">
+        <div class="container">
+           <h4><b>Shoes</b></h4>
+            <p>GH₵ 300.00</p>
+            <a href="#" style="color: orange; text-decoration: none;">Add to cart</a>
+
+        </div>
+    </div>
+    </li>
+
+    <li><div class="card">
+        <img src="images/p1.jpg" alt="me" style="width: 50%; height:100%;">
+        <div class="container">
+           <h4><b>Phone</b></h4>
+            <p>GH₵ 900.00</p>
+            <a href="#" style="color: orange; text-decoration: none;">Add to cart</a>
+
+        </div>
+    </div>
+    </li>
+
+<li><div class="card">
+        <img src="images/p2.jpg" alt="me" style="width: 50%; height:100%;">
+        <div class="container">
+           <h4><b>Phone</b></h4>
+            <p>GH₵ 900.00</p>
+            <a href="#" style="color: orange; text-decoration: none;">Add to cart</a>
+
+        </div>
+    </div>
+    </li>
+
+    <li><div class="card">
+        <img src="images/p4.jpg" alt="me" style="width: 50%; height:100%;">
+        <div class="container">
+           <h4><b>Phone</b></h4>
+            <p>GH₵ 900.00</p>
+            <a href="#" style="color: orange; text-decoration: none;">Add to cart</a>
+
+        </div>
+    </div>
+    </li>
+
+    <li><div class="card">
+        <img src="images/c1.jpg" alt="me" style="width: 50%; height:100%;">
+        <div class="container">
+           <h4><b>Clothes</b></h4>
+            <p>GH₵ 50.00</p>
+            <a href="#" style="color: orange; text-decoration: none;">Add to cart</a>
+
+        </div>
+    </div>
+    </li>
+
+    <li><div class="card">
+        <img src="images/c2.jpg" alt="me" style="width: 50%; height:100%;margin-bottom: -10px;">
+        <div class="container">
+           <h4><b>Clothes</b></h4>
+            <p>GH₵ 50.00</p>
+            <a href="#" style="color: orange; text-decoration: none;">Add to cart</a>
+
+        </div>
+    </div>
+    </li>
+
+    <li><div class="card">
+        <img src="images/c3.jpg" alt="me" style="width: 50%; height:100%;margin-bottom: -25px;">
+        <div class="container">
+           <h4><b>Clothes</b></h4>
+            <p>GH₵ 50.00</p>
+            <a href="#" style="color: orange; text-decoration: none;">Add to cart</a>
+
+        </div>
+    </div>
+    </li>
+
+<li><div class="card">
+        <img src="images/lp2.jpg" alt="me" style="width: 50%; height:100%;">
+        <div class="container">
+           <h4><b>Laptops</b></h4>
+            <p>GH₵ 1,500.00</p>
+            <a href="#" style="color: orange; text-decoration: none;">Add to cart</a>
+
+        </div>
+    </div>
+    </li>
+
+    <li><div class="card">
+        <img src="images/lp11.jpg" alt="me" style="width: 50%; height:100%;margin-top: 11px;">
+        <div class="container">
+           <h4><b>Laptops</b></h4>
+            <p>GH₵ 1,500.00</p>
+            <a href="#" style="color: orange; text-decoration: none;">Add to cart</a>
+
+        </div>
+    </div>
+    </li>
+
+<li><div class="card">
+        <img src="images/lp2.jpg" alt="me" style="width: 50%; height:100%;">
+        <div class="container">
+           <h4><b>Laptops</b></h4>
+            <p>GH₵ 1,500.00</p>
+            <a href="#" style="color: orange; text-decoration: none;">Add to cart</a>
+
+        </div>
+    </div>
+    </li>
+
+    <li><div class="card">
+        <img src="images/w1.jpg" alt="me" style="width: 50%; height:100%;">
+        <div class="container">
+           <h4><b>Watches</b></h4>
+            <p>GH₵ 50.00</p>
+            <a href="#" style="color: orange; text-decoration: none;">Add to cart</a>
+
+        </div>
+    </div>
+    </li>
+
+    <li><div class="card">
+        <img src="images/w2.jpg" alt="me" style="width: 50%; height:100%;">
+        <div class="container">
+           <h4><b>Watches</b></h4>
+            <p>GH₵ 50.00</p>
+            <a href="#" style="color: orange; text-decoration: none;">Add to cart</a>
+
+        </div>
+    </div>
+    </li>
+
+<li><div class="card">
+        <img src="images/w3.jpg" alt="me" style="width: 50%; height:100%;margin-bottom: -30px;">
+        <div class="container">
+           <h4><b>Watches</b></h4>
+            <p>GH₵ 50.00</p>
+            <a href="#" style="color: orange; text-decoration: none;">Add to cart</a>
+
+        </div>
+    </div>
+    </li>
+
+</ul>
+
+
+
+<div>
+    <a href="picslider" onmouseover="document.ming.src='images/b1.jpg'"  onmouseout="document.ming.src='images/b3.jpg'"><img src="images/b1.jpg" width="100%" name="ming"></a>
+    
+</div>
+
+<div><h1 style="font-size:60px;text-align: center">NEW OFFERS</h1></div>
+
+<ul style="list-style-type: none;">
+
+   <li><div class="card">
+        <img src="images/lp12.jpg" alt="me" style="width: 50%; height:100%;margin-top: 40px;">
+        <div class="container">
+           <h4><b>Laptops</b></h4>
+            <p>GH₵ 1,500.00</p>
+            <a href="#" style="color: orange; text-decoration: none;">Add to cart</a>
+
+        </div>
+    </div>
+    </li>
+
+    <li><div class="card">
+        <img src="images/lp7.jpg" alt="me" style="width: 50%; height:100%;margin-top: 20px;">
+        <div class="container">
+           <h4><b>Laptops</b></h4>
+            <p>GH₵ 1,500.00</p>
+            <a href="#" style="color: orange; text-decoration: none;">Add to cart</a>
+
+        </div>
+    </div>
+    </li>
+
+        <li><div class="card">
+        <img src="images/lp2.jpg" alt="me" style="width: 50%; height:100%;margin-top: 30px;margin-bottom: 10px">
+        <div class="container">
+           <h4><b>Laptops</b></h4>
+            <p>GH₵ 1,500.00</p>
+            <a href="#" style="color: orange; text-decoration: none;">Add to cart</a>
+
+        </div>
+    </div>
+
+            <li><div class="card">
+        <img src="images/s12.jpg" alt="me" style="width: 50%; height:100%;">
+        <div class="container">
+           <h4><b>Shoes</b></h4>
+            <p>GH₵ 300.00</p>
+            <a href="#" style="color: orange; text-decoration: none;">Add to cart</a>
+
+        </div>
+    </div>
+    </li>
+
+     <li><div class="card">
+        <img src="images/s13.jpg" alt="me" style="width: 50%; height:100%;">
+        <div class="container">
+           <h4><b>Shoes</b></h4>
+            <p>GH₵ 300.00</p>
+            <a href="#" style="color: orange; text-decoration: none;">Add to cart</a>
+
+        </div>
+    </div>
+    </li>
+
+            <li><div class="card">
+        <img src="images/s16.jpg" alt="me" style="width: 50%; height:100%;">
+        <div class="container">
+           <h4><b>Shoes</b></h4>
+            <p>GH₵ 300.00</p>
+            <a href="#" style="color: orange; text-decoration: none;">Add to cart</a>
+
+        </div>
+    </div>
+    </li>
+
+    <li><div class="card">
+        <img src="images/w9.jpg" alt="me" style="width: 50%; height:100%;">
+        <div class="container">
+           <h4><b>Watches</b></h4>
+            <p>GH₵ 50.00</p>
+            <a href="#" style="color: orange; text-decoration: none;">Add to cart</a>
+
+        </div>
+    </div>
+    </li>
+
+    <li><div class="card">
+        <img src="images/w7.jpg" alt="me" style="width: 50%; height:100%;">
+        <div class="container">
+           <h4><b>Watches</b></h4>
+            <p>GH₵ 50.00</p>
+            <a href="#" style="color: orange; text-decoration: none;">Add to cart</a>
+
+        </div>
+    </div>
+    </li>
+
+    <li><div class="card">
+        <img src="images/w8.jpg" alt="me" style="width: 50%; height:100%;">
+        <div class="container">
+           <h4><b>Watches</b></h4>
+            <p>GH₵ 50.00</p>
+            <a href="#" style="color: orange; text-decoration: none;">Add to cart</a>
+
+        </div>
+    </div>
+    </li>
+           
+</ul>
+    </ul>
+
+<div id="ft" style="background-color: #0d0d0d; padding: 30px; margin-top: 1000px;">
+    <div style="margin-left: 130px;">
+        <h2>CONTACT US</h2>
+            <p>Address:ADISADEL ESTATE BLOCK 33 </p>
+            <p>Phone: 0274008316</p>
+            <p>Email: <a href="mailto:princealfredgyan@gmail.com">princealfredgyan@gmail.com</a></p>
+    </div>      
+             <div style="margin-left: 550px; position: relative; margin-top: -153px;">
+             <h2>QUICK LINKS</h2>
+        <p><a href="#">Job Vacancies</a></p>
+        <p><a href="categories.html">Categories</a></p>
+       <p> <a href="about.html">About Us</a></p></div>
+       <div style="margin-left: 1000px; position: relative; margin-top: -153px;">
+             <h2>COMPANY</h2>
+        <p><a href="#">Team</a></p>
+        <p><a href="#">Privacy</a></p>
+       <p> <a href="#">Terms</a></p></div>     
+    </div>
+
+    <footer class="footer"><p>&copy Copyright 2018 PrinceDev Inc. </p></footer>
+
+
+</body>
+</html>
